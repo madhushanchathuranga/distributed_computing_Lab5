@@ -18,9 +18,11 @@ public class MyCalculator {
 
     /**
      * This is a sample web service operation
+     
      */
-    @WebMethod(operationName = "hello")
-    public String hello(@WebParam(name = "name") String txt) {
-        return "Hello " + txt + " !";
+    @WebMethod(operationName = "add")
+    public int add(@WebParam(name = "a") int a,@WebParam(name = "b") int b) {
+        return a;
+        
     }
 }

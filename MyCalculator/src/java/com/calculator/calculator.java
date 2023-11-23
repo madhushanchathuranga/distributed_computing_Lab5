@@ -13,6 +13,7 @@ import javax.jws.WebService;
  * @author madhushan
  */@WebService
 public class calculator {
+     int b=5;
     @WebMethod
     public int add(int a,int b)
     {
