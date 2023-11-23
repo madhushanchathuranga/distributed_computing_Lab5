@@ -5,27 +5,30 @@
  */
 package com.calculator;
 
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
 /**
  *
  * @author madhushan
- */
+ */@WebService
 public class calculator {
-    
+    @WebMethod
     public int add(int a,int b)
     {
         return a+b;
     }
-    
+    @WebMethod
     public int subs(int a,int b)
     {
         return a-b;
     }
-    
+    @WebMethod
     public int multi(int a,int b)
     {
         return a*b;
     }
-    
+    @WebMethod
     public int divi(int a,int b)
     {
         return a/b;
