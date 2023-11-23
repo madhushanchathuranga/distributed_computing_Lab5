@@ -4,6 +4,9 @@
     <service name="MyCalculator">
       <implementation-class>com.calculator.MyCalculator</implementation-class>
     </service>
+    <service name="calculator">
+      <implementation-class>com.calculator.calculator</implementation-class>
+    </service>
   </services>
   <clients/>
   <jsr109>false</jsr109>
